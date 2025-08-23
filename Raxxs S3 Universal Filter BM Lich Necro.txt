@@ -19,7 +19,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>67</Order>
+      <Order>69</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -75,7 +75,7 @@
       <nameOverride>All Items - Turns off at 10</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>66</Order>
+      <Order>68</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -102,7 +102,7 @@
       <nameOverride>Silver Ring - Turns off at 15</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>65</Order>
+      <Order>67</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -138,7 +138,7 @@
       <nameOverride>Movement Speed - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>64</Order>
+      <Order>66</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -193,7 +193,7 @@
       <nameOverride>Phys Res / All Health - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>63</Order>
+      <Order>65</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -252,7 +252,57 @@
       <nameOverride>High Tier Resistances - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>62</Order>
+      <Order>64</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>105</int>
+            <int>107</int>
+            <int>117</int>
+            <int>139</int>
+            <int>140</int>
+            <int>141</int>
+            <int>430</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>3</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>44</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Godly Campaign Idols - Turns off at 45</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>5</BeamId>
+      <Order>63</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -300,7 +350,7 @@
       <nameOverride>BIS Primalist Campaign Weapons (ADD WEAPON TYPES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>61</Order>
+      <Order>62</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -339,7 +389,7 @@
       <nameOverride>BIS Acolyte Campaign Weapons (ADD WEAPON TYPES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>60</Order>
+      <Order>61</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -368,7 +418,7 @@
       <nameOverride>Rare or Better Items  - Turns off at 55</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>59</Order>
+      <Order>60</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -823,7 +873,7 @@
       <nameOverride>Baby Idols - Turns off at 20</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>58</Order>
+      <Order>59</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1114,7 +1164,7 @@
       <nameOverride>Decent Idols - Turns off at 75</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>57</Order>
+      <Order>58</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1246,7 +1296,7 @@
       <nameOverride>Godly Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>56</Order>
+      <Order>57</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1281,7 +1331,7 @@
       <nameOverride>BM Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>55</Order>
+      <Order>56</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1316,7 +1366,7 @@
       <nameOverride>BM Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>54</Order>
+      <Order>55</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1351,7 +1401,7 @@
       <nameOverride>Lich Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>53</Order>
+      <Order>54</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1386,7 +1436,7 @@
       <nameOverride>Necro Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>52</Order>
+      <Order>53</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1441,7 +1491,7 @@
       <nameOverride>Shatter Defensive Affixes (CHECK DEFENSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>51</Order>
+      <Order>52</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1479,7 +1529,7 @@
       <nameOverride>Shatter Offensive Affixes (TURN ON ONES YOU NEED)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>50</Order>
+      <Order>51</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1628,7 +1678,7 @@
       <nameOverride>Shatter Class Affixes (UNCHECK UNWANTED CLASSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>49</Order>
+      <Order>50</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1652,7 +1702,7 @@
       <nameOverride>Highly Needed Affixes (ADD AFFIXES YOU'RE LOW ON)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>48</Order>
+      <Order>49</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1681,7 +1731,7 @@
       <nameOverride>Item Bases (USE IF YOU WANT SOMETHING SPECIFIC)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>47</Order>
+      <Order>48</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1709,7 +1759,7 @@
         </Condition>
       </conditions>
       <color>16</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent_deprecated>false</levelDependent_deprecated>
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
@@ -1717,7 +1767,7 @@
       <nameOverride>BM Items to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>46</Order>
+      <Order>47</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1746,7 +1796,7 @@
         </Condition>
       </conditions>
       <color>16</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent_deprecated>false</levelDependent_deprecated>
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
@@ -1754,7 +1804,7 @@
       <nameOverride>Lich Items to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>45</Order>
+      <Order>46</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1790,13 +1840,13 @@
       <nameOverride>Necro tems to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>44</Order>
+      <Order>45</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="RarityCondition">
-          <rarity>UNIQUE EXALTED</rarity>
+          <rarity>EXALTED</rarity>
           <minLegendaryPotential i:nil="true" />
           <maxLegendaryPotential i:nil="true" />
           <minWeaversWill i:nil="true" />
@@ -1816,7 +1866,36 @@
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
-      <nameOverride>All Uniques &amp; Exalts - Turns off at 70</nameOverride>
+      <nameOverride>All Exalts - Turns off at 70</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>44</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>79</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride>All Uniques - Turns off at 80</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
       <Order>43</Order>
@@ -1861,7 +1940,6 @@
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
             <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-            <EquipmentType>SHIELD</EquipmentType>
             <EquipmentType>HELMET</EquipmentType>
             <EquipmentType>BODY_ARMOR</EquipmentType>
             <EquipmentType>BELT</EquipmentType>
@@ -3080,6 +3158,25 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>14</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
       <color>0</color>
@@ -6732,6 +6829,72 @@
           </Uniques>
           <Uniques>
             <UniqueId>177</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>5</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>409</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>218</UniqueId>
             <Rolls>
               <UniqueModifierWithRollId>
                 <RollId>0</RollId>
@@ -19094,7 +19257,7 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Best Lich Amulets (ADD BEST T7 AFFIXES)</nameOverride>
-      <SoundId>0</SoundId>
+      <SoundId>9</SoundId>
       <BeamId>8</BeamId>
       <Order>24</Order>
     </Rule>
@@ -19581,7 +19744,7 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Best BM Helmets (ADD BEST T7 AFFIXES)</nameOverride>
-      <SoundId>0</SoundId>
+      <SoundId>9</SoundId>
       <BeamId>8</BeamId>
       <Order>10</Order>
     </Rule>
@@ -19619,7 +19782,7 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Best Lich Helmets (ADD BEST T7 AFFIXES)</nameOverride>
-      <SoundId>0</SoundId>
+      <SoundId>9</SoundId>
       <BeamId>8</BeamId>
       <Order>9</Order>
     </Rule>
@@ -19654,7 +19817,7 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Best Necro Helmets (ADD BEST T7 AFFIXES)</nameOverride>
-      <SoundId>0</SoundId>
+      <SoundId>9</SoundId>
       <BeamId>8</BeamId>
       <Order>8</Order>
     </Rule>
