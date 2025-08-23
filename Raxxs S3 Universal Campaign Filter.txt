@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Raxx's S3 Universal Campaign Filter</name>
+  <filterIcon>13</filterIcon>
+  <filterIconColor>16</filterIconColor>
+  <description>1.3 CoF</description>
+  <lastModifiedInVersion>1.3.0.2</lastModifiedInVersion>
+  <lootFilterVersion>5</lootFilterVersion>
+  <rules>
+    <Rule>
+      <type>HIDE</type>
+      <conditions />
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride />
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>12</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
+            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
+            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+            <EquipmentType>BOW</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
+            <EquipmentType>SHIELD</EquipmentType>
+            <EquipmentType>QUIVER</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>9</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride>All Items - Turns off at 10</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>11</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes>
+            <int>3</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>14</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Silver Ring - Turns off at 15</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>10</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>29</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Movement Speed - Turns off at 30</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>9</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>45</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>29</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Phys Res / All Health - Turns off at 30</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>8</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>3</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>29</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>High Tier Resistances - Turns off at 30</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>7</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>105</int>
+            <int>107</int>
+            <int>117</int>
+            <int>430</int>
+            <int>138</int>
+            <int>139</int>
+            <int>140</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>3</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>44</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Godly Campaign Idols - Turns off at 45</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>5</BeamId>
+      <Order>6</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>38</int>
+            <int>9</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>19</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Early Caster Wpns - Turns off at 20 (ADD DMG TYPE)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>5</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
+            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>30</int>
+            <int>9</int>
+            <int>78</int>
+            <int>77</int>
+            <int>79</int>
+            <int>63</int>
+            <int>76</int>
+            <int>89</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>19</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Early Melee Wpns - Turns off at 20 (ADD DMG TYPE)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>4</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOW</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>30</int>
+            <int>669</int>
+            <int>670</int>
+            <int>434</int>
+            <int>433</int>
+            <int>431</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>19</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Early Bows - Turns off at 20 (ADD DMG TYPE)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>3</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type />
+          <subTypes />
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>44</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Wpns (ADD WEAPON TYPES)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>2</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type />
+          <subTypes />
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>44</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Offhands (ADD OH TYPES)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>1</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>RARE UNIQUE SET LEGENDARY EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>54</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride>Rare or Better Items  - Turns off at 55</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>0</Order>
+    </Rule>
+  </rules>
+</ItemFilter>
