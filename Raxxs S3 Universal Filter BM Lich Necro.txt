@@ -19,7 +19,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>69</Order>
+      <Order>70</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -75,7 +75,7 @@
       <nameOverride>All Items - Turns off at 10</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>68</Order>
+      <Order>69</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -102,7 +102,7 @@
       <nameOverride>Silver Ring - Turns off at 15</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>67</Order>
+      <Order>68</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -138,7 +138,7 @@
       <nameOverride>Movement Speed - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>66</Order>
+      <Order>67</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -193,7 +193,7 @@
       <nameOverride>Phys Res / All Health - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>65</Order>
+      <Order>66</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -252,7 +252,7 @@
       <nameOverride>High Tier Resistances - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>64</Order>
+      <Order>65</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -302,7 +302,7 @@
       <nameOverride>Godly Campaign Idols - Turns off at 45</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>5</BeamId>
-      <Order>63</Order>
+      <Order>64</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -350,7 +350,7 @@
       <nameOverride>BIS Primalist Campaign Weapons (ADD WEAPON TYPES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>62</Order>
+      <Order>63</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -389,7 +389,7 @@
       <nameOverride>BIS Acolyte Campaign Weapons (ADD WEAPON TYPES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>61</Order>
+      <Order>62</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -418,7 +418,7 @@
       <nameOverride>Rare or Better Items  - Turns off at 55</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>60</Order>
+      <Order>61</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -873,7 +873,7 @@
       <nameOverride>Baby Idols - Turns off at 20</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>59</Order>
+      <Order>60</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1164,7 +1164,7 @@
       <nameOverride>Decent Idols - Turns off at 75</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>58</Order>
+      <Order>59</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1264,6 +1264,10 @@
             <int>148</int>
             <int>226</int>
             <int>257</int>
+            <int>162</int>
+            <int>147</int>
+            <int>154</int>
+            <int>171</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1296,6 +1300,154 @@
       <nameOverride>Godly Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
+      <Order>58</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>148</int>
+            <int>226</int>
+            <int>384</int>
+            <int>401</int>
+            <int>402</int>
+            <int>410</int>
+            <int>411</int>
+            <int>412</int>
+            <int>413</int>
+            <int>415</int>
+            <int>420</int>
+            <int>421</int>
+            <int>422</int>
+            <int>423</int>
+            <int>424</int>
+            <int>435</int>
+            <int>747</int>
+            <int>748</int>
+            <int>749</int>
+            <int>404</int>
+            <int>405</int>
+            <int>406</int>
+            <int>407</int>
+            <int>408</int>
+            <int>409</int>
+            <int>414</int>
+            <int>416</int>
+            <int>417</int>
+            <int>418</int>
+            <int>419</int>
+            <int>192</int>
+            <int>572</int>
+            <int>573</int>
+            <int>574</int>
+            <int>576</int>
+            <int>577</int>
+            <int>578</int>
+            <int>579</int>
+            <int>580</int>
+            <int>581</int>
+            <int>582</int>
+            <int>583</int>
+            <int>586</int>
+            <int>594</int>
+            <int>607</int>
+            <int>623</int>
+            <int>632</int>
+            <int>633</int>
+            <int>634</int>
+            <int>635</int>
+            <int>636</int>
+            <int>571</int>
+            <int>647</int>
+            <int>649</int>
+            <int>732</int>
+            <int>733</int>
+            <int>734</int>
+            <int>735</int>
+            <int>944</int>
+            <int>21</int>
+            <int>334</int>
+            <int>335</int>
+            <int>336</int>
+            <int>337</int>
+            <int>338</int>
+            <int>342</int>
+            <int>346</int>
+            <int>347</int>
+            <int>348</int>
+            <int>349</int>
+            <int>350</int>
+            <int>351</int>
+            <int>352</int>
+            <int>353</int>
+            <int>354</int>
+            <int>355</int>
+            <int>356</int>
+            <int>357</int>
+            <int>648</int>
+            <int>663</int>
+            <int>665</int>
+            <int>666</int>
+            <int>667</int>
+            <int>737</int>
+            <int>332</int>
+            <int>333</int>
+            <int>340</int>
+            <int>343</int>
+            <int>344</int>
+            <int>345</int>
+            <int>539</int>
+            <int>540</int>
+            <int>541</int>
+            <int>542</int>
+            <int>543</int>
+            <int>544</int>
+            <int>545</int>
+            <int>555</int>
+            <int>558</int>
+            <int>559</int>
+            <int>585</int>
+            <int>590</int>
+            <int>591</int>
+            <int>595</int>
+            <int>599</int>
+            <int>602</int>
+            <int>606</int>
+            <int>621</int>
+            <int>622</int>
+            <int>626</int>
+            <int>627</int>
+            <int>629</int>
+            <int>644</int>
+            <int>646</int>
+            <int>660</int>
+            <int>661</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Class Idols (REROLL THESE AT THE WEAVER FORGE)</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
       <Order>57</Order>
     </Rule>
     <Rule>
@@ -1307,6 +1459,7 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>0</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -1342,12 +1495,15 @@
           </type>
           <subTypes>
             <int>5</int>
+            <int>0</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
             <int>257</int>
             <int>226</int>
+            <int>162</int>
+            <int>171</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1377,6 +1533,7 @@
           </type>
           <subTypes>
             <int>8</int>
+            <int>3</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -1412,6 +1569,7 @@
           </type>
           <subTypes>
             <int>8</int>
+            <int>3</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
@@ -19868,7 +20026,6 @@
           <affixes>
             <int>64</int>
             <int>643</int>
-            <int>2</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
