@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Raxx's S3 Universal Filter BM LICH NECRO</name>
+  <name>Raxx's S3 Universal Filter BM LICH NECRO ROGUE</name>
   <filterIcon>13</filterIcon>
   <filterIconColor>16</filterIconColor>
   <description>1.3 CoF</description>
-  <lastModifiedInVersion>1.3</lastModifiedInVersion>
+  <lastModifiedInVersion>1.3.0.2</lastModifiedInVersion>
   <lootFilterVersion>5</lootFilterVersion>
   <rules>
     <Rule>
@@ -19,406 +19,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>70</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
-            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>WAND</EquipmentType>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
-            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
-            <EquipmentType>BOW</EquipmentType>
-            <EquipmentType>CATALYST</EquipmentType>
-            <EquipmentType>SHIELD</EquipmentType>
-            <EquipmentType>QUIVER</EquipmentType>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
-            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
-            <EquipmentType>IDOL_2x1</EquipmentType>
-            <EquipmentType>IDOL_1x2</EquipmentType>
-            <EquipmentType>IDOL_3x1</EquipmentType>
-            <EquipmentType>IDOL_1x3</EquipmentType>
-            <EquipmentType>IDOL_4x1</EquipmentType>
-            <EquipmentType>IDOL_1x4</EquipmentType>
-            <EquipmentType>IDOL_2x2</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>9</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride>All Items - Turns off at 10</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>69</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RING</EquipmentType>
-          </type>
-          <subTypes>
-            <int>3</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>14</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Silver Ring - Turns off at 15</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>68</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOOTS</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>29</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Movement Speed - Turns off at 30</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>67</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
-            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
-            <EquipmentType>IDOL_2x1</EquipmentType>
-            <EquipmentType>IDOL_1x2</EquipmentType>
-            <EquipmentType>IDOL_3x1</EquipmentType>
-            <EquipmentType>IDOL_1x3</EquipmentType>
-            <EquipmentType>IDOL_4x1</EquipmentType>
-            <EquipmentType>IDOL_1x4</EquipmentType>
-            <EquipmentType>IDOL_2x2</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>45</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>29</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Phys Res / All Health - Turns off at 30</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>66</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
-            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
-            <EquipmentType>IDOL_2x1</EquipmentType>
-            <EquipmentType>IDOL_1x2</EquipmentType>
-            <EquipmentType>IDOL_3x1</EquipmentType>
-            <EquipmentType>IDOL_1x3</EquipmentType>
-            <EquipmentType>IDOL_4x1</EquipmentType>
-            <EquipmentType>IDOL_1x4</EquipmentType>
-            <EquipmentType>IDOL_2x2</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>17</int>
-            <int>80</int>
-            <int>13</int>
-            <int>24</int>
-            <int>10</int>
-            <int>19</int>
-            <int>7</int>
-            <int>45</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>3</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>29</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>High Tier Resistances - Turns off at 30</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>65</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
-            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
-            <EquipmentType>IDOL_2x1</EquipmentType>
-            <EquipmentType>IDOL_1x2</EquipmentType>
-            <EquipmentType>IDOL_3x1</EquipmentType>
-            <EquipmentType>IDOL_1x3</EquipmentType>
-            <EquipmentType>IDOL_4x1</EquipmentType>
-            <EquipmentType>IDOL_1x4</EquipmentType>
-            <EquipmentType>IDOL_2x2</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>105</int>
-            <int>107</int>
-            <int>117</int>
-            <int>139</int>
-            <int>140</int>
-            <int>141</int>
-            <int>430</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>3</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>44</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Godly Campaign Idols - Turns off at 45</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>5</BeamId>
-      <Order>64</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
-            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>WAND</EquipmentType>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
-            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
-            <EquipmentType>BOW</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>44</maximumLvl>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>643</int>
-            <int>102</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>BIS Primalist Campaign Weapons (ADD WEAPON TYPES)</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>63</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>WAND</EquipmentType>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>44</maximumLvl>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>38</int>
-            <int>49</int>
-            <int>4</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>BIS Acolyte Campaign Weapons (ADD WEAPON TYPES)</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>62</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>RARE UNIQUE SET EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>44</maximumLvl>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride>Rare or Better Items  - Turns off at 55</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>61</Order>
+      <Order>74</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -873,7 +474,7 @@
       <nameOverride>Baby Idols - Turns off at 20</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>60</Order>
+      <Order>73</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1164,7 +765,7 @@
       <nameOverride>Decent Idols - Turns off at 75</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>59</Order>
+      <Order>72</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1268,6 +869,10 @@
             <int>147</int>
             <int>154</int>
             <int>171</int>
+            <int>852</int>
+            <int>887</int>
+            <int>842</int>
+            <int>827</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1300,7 +905,7 @@
       <nameOverride>Godly Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>58</Order>
+      <Order>71</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1314,122 +919,67 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>148</int>
+            <int>161</int>
+            <int>214</int>
+            <int>257</int>
+            <int>736</int>
+            <int>664</int>
+            <int>173</int>
+            <int>172</int>
+            <int>171</int>
+            <int>170</int>
+            <int>169</int>
+            <int>168</int>
+            <int>162</int>
+            <int>160</int>
+            <int>685</int>
+            <int>329</int>
+            <int>236</int>
+            <int>235</int>
+            <int>234</int>
+            <int>233</int>
+            <int>232</int>
+            <int>231</int>
+            <int>230</int>
+            <int>229</int>
+            <int>228</int>
+            <int>227</int>
             <int>226</int>
-            <int>384</int>
-            <int>401</int>
-            <int>402</int>
-            <int>410</int>
-            <int>411</int>
-            <int>412</int>
-            <int>413</int>
-            <int>415</int>
-            <int>420</int>
-            <int>421</int>
-            <int>422</int>
-            <int>423</int>
-            <int>424</int>
-            <int>435</int>
-            <int>747</int>
-            <int>748</int>
-            <int>749</int>
-            <int>404</int>
-            <int>405</int>
-            <int>406</int>
-            <int>407</int>
-            <int>408</int>
-            <int>409</int>
-            <int>414</int>
-            <int>416</int>
-            <int>417</int>
-            <int>418</int>
-            <int>419</int>
-            <int>192</int>
-            <int>572</int>
-            <int>573</int>
-            <int>574</int>
-            <int>576</int>
-            <int>577</int>
-            <int>578</int>
-            <int>579</int>
-            <int>580</int>
-            <int>581</int>
-            <int>582</int>
-            <int>583</int>
-            <int>586</int>
-            <int>594</int>
-            <int>607</int>
-            <int>623</int>
-            <int>632</int>
-            <int>633</int>
-            <int>634</int>
-            <int>635</int>
-            <int>636</int>
-            <int>571</int>
-            <int>647</int>
-            <int>649</int>
-            <int>732</int>
-            <int>733</int>
-            <int>734</int>
-            <int>735</int>
-            <int>944</int>
-            <int>21</int>
-            <int>334</int>
-            <int>335</int>
-            <int>336</int>
-            <int>337</int>
-            <int>338</int>
-            <int>342</int>
-            <int>346</int>
-            <int>347</int>
-            <int>348</int>
-            <int>349</int>
-            <int>350</int>
-            <int>351</int>
-            <int>352</int>
-            <int>353</int>
-            <int>354</int>
-            <int>355</int>
-            <int>356</int>
-            <int>357</int>
-            <int>648</int>
-            <int>663</int>
-            <int>665</int>
-            <int>666</int>
-            <int>667</int>
-            <int>737</int>
-            <int>332</int>
-            <int>333</int>
-            <int>340</int>
-            <int>343</int>
-            <int>344</int>
-            <int>345</int>
-            <int>539</int>
-            <int>540</int>
-            <int>541</int>
-            <int>542</int>
-            <int>543</int>
-            <int>544</int>
-            <int>545</int>
-            <int>555</int>
-            <int>558</int>
-            <int>559</int>
-            <int>585</int>
-            <int>590</int>
-            <int>591</int>
-            <int>595</int>
-            <int>599</int>
-            <int>602</int>
-            <int>606</int>
-            <int>621</int>
-            <int>622</int>
-            <int>626</int>
-            <int>627</int>
-            <int>629</int>
-            <int>644</int>
-            <int>646</int>
-            <int>660</int>
-            <int>661</int>
+            <int>225</int>
+            <int>224</int>
+            <int>223</int>
+            <int>222</int>
+            <int>221</int>
+            <int>220</int>
+            <int>219</int>
+            <int>218</int>
+            <int>217</int>
+            <int>216</int>
+            <int>215</int>
+            <int>213</int>
+            <int>164</int>
+            <int>163</int>
+            <int>159</int>
+            <int>158</int>
+            <int>157</int>
+            <int>156</int>
+            <int>154</int>
+            <int>153</int>
+            <int>152</int>
+            <int>151</int>
+            <int>150</int>
+            <int>149</int>
+            <int>148</int>
+            <int>147</int>
+            <int>146</int>
+            <int>145</int>
+            <int>144</int>
+            <int>133</int>
+            <int>132</int>
+            <int>130</int>
+            <int>131</int>
+            <int>126</int>
+            <int>125</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1445,10 +995,234 @@
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
-      <nameOverride>Class Idols (REROLL THESE AT THE WEAVER FORGE)</nameOverride>
+      <nameOverride>BM Idols (REROLL THESE AT THE WEAVER FORGE)</nameOverride>
       <SoundId>1</SoundId>
       <BeamId>1</BeamId>
-      <Order>57</Order>
+      <Order>70</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>941</int>
+            <int>753</int>
+            <int>650</int>
+            <int>314</int>
+            <int>313</int>
+            <int>312</int>
+            <int>302</int>
+            <int>297</int>
+            <int>291</int>
+            <int>267</int>
+            <int>757</int>
+            <int>756</int>
+            <int>755</int>
+            <int>754</int>
+            <int>752</int>
+            <int>751</int>
+            <int>750</int>
+            <int>318</int>
+            <int>317</int>
+            <int>316</int>
+            <int>315</int>
+            <int>311</int>
+            <int>310</int>
+            <int>309</int>
+            <int>308</int>
+            <int>304</int>
+            <int>303</int>
+            <int>296</int>
+            <int>295</int>
+            <int>294</int>
+            <int>293</int>
+            <int>292</int>
+            <int>290</int>
+            <int>289</int>
+            <int>288</int>
+            <int>287</int>
+            <int>286</int>
+            <int>285</int>
+            <int>284</int>
+            <int>269</int>
+            <int>268</int>
+            <int>266</int>
+            <int>265</int>
+            <int>264</int>
+            <int>263</int>
+            <int>262</int>
+            <int>261</int>
+            <int>260</int>
+            <int>259</int>
+            <int>258</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Acolyte Idols (REROLL THESE AT THE WEAVER FORGE)</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+      <Order>69</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>161</int>
+            <int>214</int>
+            <int>941</int>
+            <int>753</int>
+            <int>650</int>
+            <int>314</int>
+            <int>313</int>
+            <int>312</int>
+            <int>302</int>
+            <int>297</int>
+            <int>291</int>
+            <int>267</int>
+            <int>757</int>
+            <int>756</int>
+            <int>755</int>
+            <int>754</int>
+            <int>752</int>
+            <int>751</int>
+            <int>750</int>
+            <int>318</int>
+            <int>317</int>
+            <int>316</int>
+            <int>315</int>
+            <int>311</int>
+            <int>310</int>
+            <int>309</int>
+            <int>308</int>
+            <int>304</int>
+            <int>303</int>
+            <int>296</int>
+            <int>295</int>
+            <int>294</int>
+            <int>293</int>
+            <int>292</int>
+            <int>290</int>
+            <int>289</int>
+            <int>288</int>
+            <int>287</int>
+            <int>286</int>
+            <int>285</int>
+            <int>284</int>
+            <int>269</int>
+            <int>268</int>
+            <int>266</int>
+            <int>265</int>
+            <int>264</int>
+            <int>263</int>
+            <int>262</int>
+            <int>261</int>
+            <int>260</int>
+            <int>259</int>
+            <int>258</int>
+            <int>257</int>
+            <int>736</int>
+            <int>664</int>
+            <int>173</int>
+            <int>172</int>
+            <int>171</int>
+            <int>170</int>
+            <int>169</int>
+            <int>168</int>
+            <int>162</int>
+            <int>160</int>
+            <int>685</int>
+            <int>329</int>
+            <int>236</int>
+            <int>235</int>
+            <int>234</int>
+            <int>233</int>
+            <int>232</int>
+            <int>231</int>
+            <int>230</int>
+            <int>229</int>
+            <int>228</int>
+            <int>227</int>
+            <int>226</int>
+            <int>225</int>
+            <int>224</int>
+            <int>223</int>
+            <int>222</int>
+            <int>221</int>
+            <int>220</int>
+            <int>219</int>
+            <int>218</int>
+            <int>217</int>
+            <int>216</int>
+            <int>215</int>
+            <int>213</int>
+            <int>164</int>
+            <int>163</int>
+            <int>159</int>
+            <int>158</int>
+            <int>157</int>
+            <int>156</int>
+            <int>154</int>
+            <int>153</int>
+            <int>152</int>
+            <int>151</int>
+            <int>150</int>
+            <int>149</int>
+            <int>148</int>
+            <int>147</int>
+            <int>146</int>
+            <int>145</int>
+            <int>144</int>
+            <int>133</int>
+            <int>132</int>
+            <int>130</int>
+            <int>131</int>
+            <int>126</int>
+            <int>125</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>false</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Idols (NONE FOR THIS RULE)</nameOverride>
+      <SoundId>1</SoundId>
+      <BeamId>1</BeamId>
+      <Order>68</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1484,7 +1258,7 @@
       <nameOverride>BM Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>56</Order>
+      <Order>67</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1522,7 +1296,7 @@
       <nameOverride>BM Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>55</Order>
+      <Order>66</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1558,7 +1332,7 @@
       <nameOverride>Lich Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>54</Order>
+      <Order>65</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1594,7 +1368,26 @@
       <nameOverride>Necro Idols (ADD CLASS SPECIFIC IDOL AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>53</Order>
+      <Order>64</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type />
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>false</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Idols (NONE FOR THIS RULE)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>63</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1649,7 +1442,7 @@
       <nameOverride>Shatter Defensive Affixes (CHECK DEFENSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>52</Order>
+      <Order>62</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1687,7 +1480,7 @@
       <nameOverride>Shatter Offensive Affixes (TURN ON ONES YOU NEED)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>51</Order>
+      <Order>61</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1808,6 +1601,78 @@
             <int>334</int>
             <int>21</int>
             <int>384</int>
+            <int>437</int>
+            <int>439</int>
+            <int>440</int>
+            <int>442</int>
+            <int>443</int>
+            <int>446</int>
+            <int>448</int>
+            <int>449</int>
+            <int>451</int>
+            <int>453</int>
+            <int>454</int>
+            <int>457</int>
+            <int>459</int>
+            <int>461</int>
+            <int>463</int>
+            <int>468</int>
+            <int>469</int>
+            <int>471</int>
+            <int>473</int>
+            <int>475</int>
+            <int>477</int>
+            <int>479</int>
+            <int>481</int>
+            <int>483</int>
+            <int>485</int>
+            <int>487</int>
+            <int>489</int>
+            <int>494</int>
+            <int>496</int>
+            <int>498</int>
+            <int>500</int>
+            <int>509</int>
+            <int>511</int>
+            <int>513</int>
+            <int>515</int>
+            <int>517</int>
+            <int>521</int>
+            <int>524</int>
+            <int>526</int>
+            <int>528</int>
+            <int>530</int>
+            <int>532</int>
+            <int>762</int>
+            <int>534</int>
+            <int>536</int>
+            <int>537</int>
+            <int>608</int>
+            <int>609</int>
+            <int>610</int>
+            <int>611</int>
+            <int>612</int>
+            <int>613</int>
+            <int>614</int>
+            <int>615</int>
+            <int>616</int>
+            <int>617</int>
+            <int>618</int>
+            <int>619</int>
+            <int>620</int>
+            <int>638</int>
+            <int>640</int>
+            <int>641</int>
+            <int>642</int>
+            <int>662</int>
+            <int>519</int>
+            <int>727</int>
+            <int>728</int>
+            <int>729</int>
+            <int>730</int>
+            <int>731</int>
+            <int>739</int>
+            <int>761</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>4</comparsionValue>
@@ -1836,7 +1701,7 @@
       <nameOverride>Shatter Class Affixes (UNCHECK UNWANTED CLASSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>50</Order>
+      <Order>60</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1860,36 +1725,7 @@
       <nameOverride>Highly Needed Affixes (ADD AFFIXES YOU'RE LOW ON)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>49</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type />
-          <subTypes />
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>NORMAL MAGIC RARE EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-      </conditions>
-      <color>8</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Item Bases (USE IF YOU WANT SOMETHING SPECIFIC)</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>48</Order>
+      <Order>59</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1925,7 +1761,7 @@
       <nameOverride>BM Items to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>47</Order>
+      <Order>58</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1962,7 +1798,7 @@
       <nameOverride>Lich Items to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>46</Order>
+      <Order>57</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1998,7 +1834,43 @@
       <nameOverride>Necro tems to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>45</Order>
+      <Order>56</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOW</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL MAGIC RARE EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+        <Condition i:type="FactionCondition">
+          <EligibleFactions>
+            <FactionID>CircleOfFortune</FactionID>
+          </EligibleFactions>
+        </Condition>
+      </conditions>
+      <color>16</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue tems to Ascend (CHOOSE THE ITEM TYPE)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>55</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2027,7 +1899,7 @@
       <nameOverride>All Exalts - Turns off at 70</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>44</Order>
+      <Order>54</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2056,7 +1928,7 @@
       <nameOverride>All Uniques - Turns off at 80</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>43</Order>
+      <Order>53</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2085,6 +1957,80 @@
             <int>582</int>
             <int>633</int>
             <int>555</int>
+            <int>437</int>
+            <int>439</int>
+            <int>440</int>
+            <int>442</int>
+            <int>443</int>
+            <int>446</int>
+            <int>448</int>
+            <int>449</int>
+            <int>451</int>
+            <int>453</int>
+            <int>454</int>
+            <int>457</int>
+            <int>459</int>
+            <int>461</int>
+            <int>463</int>
+            <int>468</int>
+            <int>469</int>
+            <int>471</int>
+            <int>473</int>
+            <int>475</int>
+            <int>477</int>
+            <int>479</int>
+            <int>481</int>
+            <int>483</int>
+            <int>485</int>
+            <int>487</int>
+            <int>489</int>
+            <int>494</int>
+            <int>496</int>
+            <int>498</int>
+            <int>500</int>
+            <int>509</int>
+            <int>511</int>
+            <int>513</int>
+            <int>515</int>
+            <int>517</int>
+            <int>521</int>
+            <int>524</int>
+            <int>526</int>
+            <int>528</int>
+            <int>530</int>
+            <int>532</int>
+            <int>762</int>
+            <int>534</int>
+            <int>536</int>
+            <int>537</int>
+            <int>608</int>
+            <int>609</int>
+            <int>610</int>
+            <int>611</int>
+            <int>612</int>
+            <int>613</int>
+            <int>614</int>
+            <int>615</int>
+            <int>616</int>
+            <int>617</int>
+            <int>618</int>
+            <int>619</int>
+            <int>620</int>
+            <int>638</int>
+            <int>640</int>
+            <int>641</int>
+            <int>642</int>
+            <int>662</int>
+            <int>519</int>
+            <int>727</int>
+            <int>728</int>
+            <int>729</int>
+            <int>730</int>
+            <int>731</int>
+            <int>739</int>
+            <int>761</int>
+            <int>12</int>
+            <int>672</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -2106,6 +2052,9 @@
             <EquipmentType>AMULET</EquipmentType>
             <EquipmentType>RING</EquipmentType>
             <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>BOW</EquipmentType>
+            <EquipmentType>QUIVER</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -2123,379 +2072,7 @@
       <nameOverride>Tier 6 Exalts (CHECK WPN/OH TYPES &amp; DMGS &amp; CLASSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>42</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>718</int>
-            <int>505</int>
-            <int>501</int>
-            <int>502</int>
-            <int>503</int>
-            <int>504</int>
-            <int>50</int>
-            <int>49</int>
-            <int>4</int>
-            <int>84</int>
-            <int>38</int>
-            <int>88</int>
-            <int>87</int>
-            <int>507</int>
-            <int>55</int>
-            <int>16</int>
-            <int>9</int>
-            <int>12</int>
-            <int>23</int>
-            <int>18</int>
-            <int>93</int>
-            <int>30</int>
-            <int>61</int>
-            <int>37</int>
-            <int>15</int>
-            <int>0</int>
-            <int>33</int>
-            <int>32</int>
-            <int>35</int>
-            <int>39</int>
-            <int>719</int>
-            <int>720</int>
-            <int>721</int>
-            <int>722</int>
-            <int>723</int>
-            <int>724</int>
-            <int>725</int>
-            <int>6</int>
-            <int>5</int>
-            <int>72</int>
-            <int>103</int>
-            <int>24</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>3</int>
-            <int>45</int>
-            <int>10</int>
-            <int>425</int>
-            <int>92</int>
-            <int>104</int>
-            <int>46</int>
-            <int>1</int>
-            <int>31</int>
-            <int>80</int>
-            <int>17</int>
-            <int>97</int>
-            <int>427</int>
-            <int>715</int>
-            <int>69</int>
-            <int>28</int>
-            <int>27</int>
-            <int>26</int>
-            <int>643</int>
-            <int>506</int>
-            <int>429</int>
-            <int>86</int>
-            <int>68</int>
-            <int>944</int>
-            <int>735</int>
-            <int>734</int>
-            <int>733</int>
-            <int>732</int>
-            <int>649</int>
-            <int>647</int>
-            <int>571</int>
-            <int>636</int>
-            <int>635</int>
-            <int>634</int>
-            <int>633</int>
-            <int>632</int>
-            <int>623</int>
-            <int>607</int>
-            <int>594</int>
-            <int>586</int>
-            <int>583</int>
-            <int>582</int>
-            <int>581</int>
-            <int>580</int>
-            <int>579</int>
-            <int>578</int>
-            <int>577</int>
-            <int>576</int>
-            <int>574</int>
-            <int>573</int>
-            <int>572</int>
-            <int>192</int>
-            <int>419</int>
-            <int>418</int>
-            <int>417</int>
-            <int>416</int>
-            <int>414</int>
-            <int>409</int>
-            <int>408</int>
-            <int>407</int>
-            <int>406</int>
-            <int>405</int>
-            <int>404</int>
-            <int>749</int>
-            <int>748</int>
-            <int>747</int>
-            <int>435</int>
-            <int>424</int>
-            <int>423</int>
-            <int>422</int>
-            <int>421</int>
-            <int>420</int>
-            <int>415</int>
-            <int>413</int>
-            <int>412</int>
-            <int>702</int>
-            <int>411</int>
-            <int>410</int>
-            <int>402</int>
-            <int>401</int>
-            <int>21</int>
-            <int>334</int>
-            <int>335</int>
-            <int>336</int>
-            <int>337</int>
-            <int>338</int>
-            <int>342</int>
-            <int>346</int>
-            <int>347</int>
-            <int>348</int>
-            <int>349</int>
-            <int>350</int>
-            <int>351</int>
-            <int>352</int>
-            <int>353</int>
-            <int>354</int>
-            <int>355</int>
-            <int>356</int>
-            <int>357</int>
-            <int>648</int>
-            <int>663</int>
-            <int>665</int>
-            <int>666</int>
-            <int>667</int>
-            <int>737</int>
-            <int>332</int>
-            <int>333</int>
-            <int>340</int>
-            <int>343</int>
-            <int>344</int>
-            <int>345</int>
-            <int>539</int>
-            <int>540</int>
-            <int>541</int>
-            <int>542</int>
-            <int>543</int>
-            <int>544</int>
-            <int>545</int>
-            <int>555</int>
-            <int>558</int>
-            <int>559</int>
-            <int>585</int>
-            <int>590</int>
-            <int>591</int>
-            <int>595</int>
-            <int>599</int>
-            <int>602</int>
-            <int>606</int>
-            <int>621</int>
-            <int>622</int>
-            <int>626</int>
-            <int>627</int>
-            <int>629</int>
-            <int>644</int>
-            <int>646</int>
-            <int>660</int>
-            <int>661</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>679</int>
-            <int>673</int>
-            <int>674</int>
-            <int>675</int>
-            <int>710</int>
-            <int>711</int>
-            <int>712</int>
-            <int>713</int>
-            <int>714</int>
-            <int>64</int>
-            <int>102</int>
-            <int>431</int>
-            <int>79</int>
-            <int>78</int>
-            <int>62</int>
-            <int>77</int>
-            <int>63</int>
-            <int>76</int>
-            <int>2</int>
-            <int>89</int>
-            <int>672</int>
-            <int>670</int>
-            <int>669</int>
-            <int>434</int>
-            <int>433</int>
-            <int>432</int>
-            <int>100</int>
-            <int>44</int>
-            <int>43</int>
-            <int>22</int>
-            <int>34</int>
-            <int>331</int>
-            <int>330</int>
-            <int>70</int>
-            <int>11</int>
-            <int>382</int>
-            <int>803</int>
-            <int>802</int>
-            <int>801</int>
-            <int>800</int>
-            <int>799</int>
-            <int>798</int>
-            <int>797</int>
-            <int>796</int>
-            <int>795</int>
-            <int>794</int>
-            <int>793</int>
-            <int>792</int>
-            <int>791</int>
-            <int>790</int>
-            <int>789</int>
-            <int>788</int>
-            <int>787</int>
-            <int>786</int>
-            <int>785</int>
-            <int>784</int>
-            <int>783</int>
-            <int>782</int>
-            <int>781</int>
-            <int>780</int>
-            <int>779</int>
-            <int>778</int>
-            <int>777</int>
-            <int>776</int>
-            <int>775</int>
-            <int>774</int>
-            <int>773</int>
-            <int>772</int>
-            <int>771</int>
-            <int>770</int>
-            <int>769</int>
-            <int>768</int>
-            <int>767</int>
-            <int>766</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>700</int>
-            <int>701</int>
-            <int>98</int>
-            <int>759</int>
-            <int>40</int>
-            <int>42</int>
-            <int>29</int>
-            <int>824</int>
-            <int>90</int>
-            <int>8</int>
-            <int>59</int>
-            <int>760</int>
-            <int>75</int>
-            <int>13</int>
-            <int>19</int>
-            <int>7</int>
-            <int>81</int>
-            <int>426</int>
-            <int>825</int>
-            <int>101</int>
-            <int>671</int>
-            <int>804</int>
-            <int>805</int>
-            <int>806</int>
-            <int>807</int>
-            <int>808</int>
-            <int>809</int>
-            <int>810</int>
-            <int>811</int>
-            <int>812</int>
-            <int>813</int>
-            <int>814</int>
-            <int>815</int>
-            <int>816</int>
-            <int>817</int>
-            <int>818</int>
-            <int>819</int>
-            <int>820</int>
-            <int>821</int>
-            <int>822</int>
-            <int>823</int>
-            <int>384</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>7</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-            <int>27</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>825</int>
-            <int>6</int>
-            <int>101</int>
-            <int>5</int>
-            <int>72</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-            <EquipmentType>SHIELD</EquipmentType>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-      </conditions>
-      <color>6</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Tier 7 Havoc (CHECK WPN/OH TYPES &amp; DMGS &amp; CLASSES)</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>41</Order>
+      <Order>52</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2849,6 +2426,8 @@
             <EquipmentType>AMULET</EquipmentType>
             <EquipmentType>RING</EquipmentType>
             <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>BOW</EquipmentType>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -2862,7 +2441,7 @@
       <nameOverride>Tier 7 Exalts (CHECK WPN/OH TYPES &amp; DMGS &amp; CLASSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>40</Order>
+      <Order>51</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2901,7 +2480,7 @@
       <nameOverride>Champion Affixes (TURN ON RULE &amp; SELECT AFFIXES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>39</Order>
+      <Order>50</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2925,7 +2504,7 @@
       <nameOverride>Experimentals (TURN ON RULE &amp; SELECT AFFIXES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>38</Order>
+      <Order>49</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2962,7 +2541,7 @@
       <nameOverride>Exalted Experimentals (TURN OFF IF YOU DON'T USE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>37</Order>
+      <Order>48</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -3309,6 +2888,78 @@
             <int>945</int>
             <int>943</int>
             <int>384</int>
+            <int>437</int>
+            <int>439</int>
+            <int>440</int>
+            <int>442</int>
+            <int>443</int>
+            <int>446</int>
+            <int>448</int>
+            <int>449</int>
+            <int>451</int>
+            <int>453</int>
+            <int>454</int>
+            <int>457</int>
+            <int>459</int>
+            <int>461</int>
+            <int>463</int>
+            <int>468</int>
+            <int>469</int>
+            <int>471</int>
+            <int>473</int>
+            <int>475</int>
+            <int>477</int>
+            <int>479</int>
+            <int>481</int>
+            <int>483</int>
+            <int>485</int>
+            <int>487</int>
+            <int>489</int>
+            <int>494</int>
+            <int>496</int>
+            <int>498</int>
+            <int>500</int>
+            <int>509</int>
+            <int>511</int>
+            <int>513</int>
+            <int>515</int>
+            <int>517</int>
+            <int>521</int>
+            <int>524</int>
+            <int>526</int>
+            <int>528</int>
+            <int>530</int>
+            <int>532</int>
+            <int>762</int>
+            <int>534</int>
+            <int>536</int>
+            <int>537</int>
+            <int>608</int>
+            <int>609</int>
+            <int>610</int>
+            <int>611</int>
+            <int>612</int>
+            <int>613</int>
+            <int>614</int>
+            <int>615</int>
+            <int>616</int>
+            <int>617</int>
+            <int>618</int>
+            <int>619</int>
+            <int>620</int>
+            <int>638</int>
+            <int>640</int>
+            <int>641</int>
+            <int>642</int>
+            <int>662</int>
+            <int>519</int>
+            <int>727</int>
+            <int>728</int>
+            <int>729</int>
+            <int>730</int>
+            <int>731</int>
+            <int>739</int>
+            <int>761</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -3346,7 +2997,7 @@
       <nameOverride>Double Exalts (UNCHECK UNWANTED CLASSES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>36</Order>
+      <Order>47</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -3387,7 +3038,7 @@
       <nameOverride>Rarest Set Items (ADD ONES YOU WANT)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>35</Order>
+      <Order>46</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -7104,6 +6755,167 @@
               </UniqueModifierWithRollId>
             </Rolls>
           </Uniques>
+          <Uniques>
+            <UniqueId>243</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>134</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>373</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>282</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>309</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>5</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
         </Condition>
       </conditions>
       <color>0</color>
@@ -7115,7 +6927,7 @@
       <nameOverride>Rarest Uniques at LP0 (ADD BUILD SPECIFIC RARE UNIQUES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>34</Order>
+      <Order>45</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19116,7 +18928,7 @@
       <nameOverride>all Uniques with 1LP / 14 WW (UNCHECK UNWANTED)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>33</Order>
+      <Order>44</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19141,7 +18953,7 @@
       <nameOverride>all Uniques with 3LP or 20 WW</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>3</BeamId>
-      <Order>32</Order>
+      <Order>43</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19150,7 +18962,20 @@
           <type>
             <EquipmentType>RELIC</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>3</int>
+            <int>4</int>
+            <int>5</int>
+            <int>29</int>
+            <int>30</int>
+            <int>31</int>
+            <int>32</int>
+            <int>33</int>
+            <int>34</int>
+            <int>35</int>
+            <int>36</int>
+            <int>37</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -19175,7 +19000,7 @@
       <nameOverride>Best BM Relics (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>31</Order>
+      <Order>42</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19184,7 +19009,20 @@
           <type>
             <EquipmentType>RELIC</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>3</int>
+            <int>4</int>
+            <int>5</int>
+            <int>11</int>
+            <int>12</int>
+            <int>13</int>
+            <int>14</int>
+            <int>15</int>
+            <int>16</int>
+            <int>17</int>
+            <int>18</int>
+            <int>19</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -19209,7 +19047,7 @@
       <nameOverride>Best Lich Relics (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>30</Order>
+      <Order>41</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19218,7 +19056,20 @@
           <type>
             <EquipmentType>RELIC</EquipmentType>
           </type>
-          <subTypes />
+          <subTypes>
+            <int>11</int>
+            <int>12</int>
+            <int>13</int>
+            <int>14</int>
+            <int>15</int>
+            <int>16</int>
+            <int>17</int>
+            <int>18</int>
+            <int>19</int>
+            <int>3</int>
+            <int>4</int>
+            <int>5</int>
+          </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -19243,7 +19094,54 @@
       <nameOverride>Best Necro Relics (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>29</Order>
+      <Order>40</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes>
+            <int>3</int>
+            <int>4</int>
+            <int>5</int>
+            <int>47</int>
+            <int>48</int>
+            <int>49</int>
+            <int>50</int>
+            <int>51</int>
+            <int>52</int>
+            <int>53</int>
+            <int>54</int>
+            <int>55</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>13</int>
+            <int>88</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Relics (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>39</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19276,7 +19174,7 @@
       <nameOverride>Best BM Rings (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>28</Order>
+      <Order>38</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19311,7 +19209,7 @@
       <nameOverride>Best Lich Rings (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>27</Order>
+      <Order>37</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19346,7 +19244,44 @@
       <nameOverride>Best Necro Rings (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>26</Order>
+      <Order>36</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>26</int>
+            <int>502</int>
+            <int>13</int>
+            <int>87</int>
+            <int>507</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Rings (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>35</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19382,7 +19317,7 @@
       <nameOverride>Best BM Amulets (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>8</BeamId>
-      <Order>25</Order>
+      <Order>34</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19417,7 +19352,7 @@
       <nameOverride>Best Lich Amulets (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>24</Order>
+      <Order>33</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19451,7 +19386,43 @@
       <nameOverride>Best Necro Amulets (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>8</BeamId>
-      <Order>23</Order>
+      <Order>32</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>945</int>
+            <int>26</int>
+            <int>88</int>
+            <int>13</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Amulets (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>8</BeamId>
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19485,7 +19456,7 @@
       <nameOverride>Best BM Gloves (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>22</Order>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19519,7 +19490,7 @@
       <nameOverride>Best Lich Gloves (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>21</Order>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19553,7 +19524,43 @@
       <nameOverride>Best Necro Gloves (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>20</Order>
+      <Order>28</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>36</int>
+            <int>675</int>
+            <int>88</int>
+            <int>87</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Gloves (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19588,7 +19595,7 @@
       <nameOverride>Best BM Boots (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>19</Order>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19623,7 +19630,7 @@
       <nameOverride>Best Lich Boots (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>18</Order>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19658,7 +19665,41 @@
       <nameOverride>Best Necro Boots (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>17</Order>
+      <Order>24</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>36</int>
+            <int>28</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Boots (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19693,7 +19734,7 @@
       <nameOverride>Best BM Belts (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>16</Order>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19729,7 +19770,7 @@
       <nameOverride>Best Lich Belts (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>15</Order>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19764,7 +19805,42 @@
       <nameOverride>Best Necro Belts (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>14</Order>
+      <Order>20</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>12</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Belts (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19799,7 +19875,7 @@
       <nameOverride>Best BM Body Armour (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>13</Order>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19835,7 +19911,7 @@
       <nameOverride>Best Lich Body Armour (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>12</Order>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19869,7 +19945,43 @@
       <nameOverride>Best Necro Body Armour (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>11</Order>
+      <Order>16</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>461</int>
+            <int>608</int>
+            <int>463</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Body Armour (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19904,7 +20016,7 @@
       <nameOverride>Best BM Helmets (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>10</Order>
+      <Order>14</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19942,7 +20054,7 @@
       <nameOverride>Best Lich Helmets (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>9</Order>
+      <Order>13</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -19977,7 +20089,42 @@
       <nameOverride>Best Necro Helmets (ADD BEST T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>8</Order>
+      <Order>12</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>416</int>
+            <int>715</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Helmets (ADD BEST T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -20011,7 +20158,40 @@
       <nameOverride>Necro Offhand (ADD BEST OFFHAND BASE &amp; T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>7</Order>
+      <Order>10</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>QUIVER</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>12</int>
+            <int>13</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Offhand (ADD BEST OFFHAND BASE &amp; T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -20044,7 +20224,7 @@
       <nameOverride>Best BM Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>6</Order>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -20079,7 +20259,7 @@
       <nameOverride>Best Lich Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>5</Order>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -20113,7 +20293,143 @@
       <nameOverride>Best Necro Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
+      <Order>6</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>717</int>
+            <int>64</int>
+            <int>643</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>false</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Necro Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>5</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOW</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>12</int>
+            <int>720</int>
+            <int>672</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
       <Order>4</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>12</int>
+            <int>720</int>
+            <int>6</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>3</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>12</int>
+            <int>720</int>
+            <int>86</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Best Rogue Weapon (ADD BEST WEAPON BASE &amp; T7 AFFIXES)</nameOverride>
+      <SoundId>9</SoundId>
+      <BeamId>8</BeamId>
+      <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -21084,42 +21400,6 @@
       <nameOverride>All Tier 8 Items</nameOverride>
       <SoundId>9</SoundId>
       <BeamId>8</BeamId>
-      <Order>3</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="KeysCondition">
-          <NonEquippableItemFilterFlags>AllKeys</NonEquippableItemFilterFlags>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride />
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>2</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="WovenEchoesCondition">
-          <NonEquippableItemFilterFlags>AllWovenEchoes</NonEquippableItemFilterFlags>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride />
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
       <Order>1</Order>
     </Rule>
     <Rule>
