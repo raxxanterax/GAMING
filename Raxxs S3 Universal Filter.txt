@@ -19,7 +19,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>49</Order>
+      <Order>50</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -75,7 +75,7 @@
       <nameOverride>All Items - Turns off at 10</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>48</Order>
+      <Order>49</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -102,7 +102,7 @@
       <nameOverride>Silver Ring - Turns off at 15</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>47</Order>
+      <Order>48</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -138,7 +138,7 @@
       <nameOverride>Movement Speed - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>46</Order>
+      <Order>47</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -193,7 +193,7 @@
       <nameOverride>Phys Res / All Health - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>45</Order>
+      <Order>46</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -252,7 +252,7 @@
       <nameOverride>High Tier Resistances - Turns off at 30</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>44</Order>
+      <Order>45</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -302,7 +302,7 @@
       <nameOverride>Godly Campaign Idols - Turns off at 45</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>5</BeamId>
-      <Order>43</Order>
+      <Order>44</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -340,7 +340,7 @@
       <nameOverride>Early Caster Wpns - Turns off at 20 (ADD DMG TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>42</Order>
+      <Order>43</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -393,7 +393,7 @@
       <nameOverride>Early Melee Wpns - Turns off at 20 (ADD DMG TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>41</Order>
+      <Order>42</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -434,7 +434,7 @@
       <nameOverride>Early Bows - Turns off at 20 (ADD DMG TYPE)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>40</Order>
+      <Order>41</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -457,7 +457,7 @@
       <nameOverride>BIS Campaign Wpns (ADD WEAPON TYPES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>39</Order>
+      <Order>40</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -480,7 +480,7 @@
       <nameOverride>BIS Campaign Offhands (ADD OH TYPES)</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>38</Order>
+      <Order>39</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -509,7 +509,7 @@
       <nameOverride>Rare or Better Items  - Turns off at 55</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>37</Order>
+      <Order>38</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -964,7 +964,7 @@
       <nameOverride>Baby Idols - Turns off at 20</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>36</Order>
+      <Order>37</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1415,7 +1415,7 @@
       <nameOverride>Decent Idols - Turns off at 75</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>35</Order>
+      <Order>36</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1595,6 +1595,40 @@
       <nameOverride>Godly Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
+      <Order>35</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes />
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Idols (SETUP FOR YOUR CLASS THEN REROLL @ WEAVER FORGE)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
       <Order>34</Order>
     </Rule>
     <Rule>
@@ -1618,7 +1652,7 @@
           <affixes />
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <minOnTheSameItem>0</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
@@ -3396,11 +3430,6 @@
             <EquipmentType>WAND</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
             <EquipmentType>BOW</EquipmentType>
-            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
-            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
             <EquipmentType>CATALYST</EquipmentType>
             <EquipmentType>SHIELD</EquipmentType>
             <EquipmentType>QUIVER</EquipmentType>
