@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Raxx's S4 Universal Filter</name>
+  <name>Raxx's S4 Universal Filter - Base Copy</name>
   <filterIcon>13</filterIcon>
   <filterIconColor>16</filterIconColor>
   <description>1.4 COF</description>
-  <lastModifiedInVersion>1.4</lastModifiedInVersion>
+  <lastModifiedInVersion>1.4.2.2</lastModifiedInVersion>
   <lootFilterVersion>9</lootFilterVersion>
   <rules>
     <Rule>
@@ -23,7 +23,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>157</Order>
+      <Order>163</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -83,7 +83,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>156</Order>
+      <Order>162</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -114,7 +114,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>155</Order>
+      <Order>161</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -145,7 +145,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>154</Order>
+      <Order>160</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -179,7 +179,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>153</Order>
+      <Order>159</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -212,7 +212,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>152</Order>
+      <Order>158</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -245,7 +245,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>151</Order>
+      <Order>157</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -298,7 +298,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>150</Order>
+      <Order>156</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -324,7 +324,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>149</Order>
+      <Order>155</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -400,7 +400,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>148</Order>
+      <Order>154</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -507,7 +507,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>147</Order>
+      <Order>153</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -569,7 +569,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>146</Order>
+      <Order>152</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -621,7 +621,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>145</Order>
+      <Order>151</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -773,7 +773,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>144</Order>
+      <Order>150</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -929,7 +929,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>143</Order>
+      <Order>149</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1085,7 +1085,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>142</Order>
+      <Order>148</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1137,7 +1137,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>141</Order>
+      <Order>147</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1289,7 +1289,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>140</Order>
+      <Order>146</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1315,7 +1315,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>139</Order>
+      <Order>145</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1800,7 +1800,7 @@
       <BeamOverride>true</BeamOverride>
       <BeamSizeOverride>LARGEST</BeamSizeOverride>
       <BeamColorOverride>19</BeamColorOverride>
-      <Order>138</Order>
+      <Order>144</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1951,7 +1951,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>137</Order>
+      <Order>143</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2111,6 +2111,347 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
+      <Order>142</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+            <int>1023</int>
+            <int>1024</int>
+            <int>1025</int>
+            <int>1026</int>
+            <int>1027</int>
+            <int>1028</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>59</maximumLvl>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes>
+            <int>3</int>
+            <int>7</int>
+          </subTypes>
+        </Condition>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Primalist Armor &amp; Relics - Gloves - Turns off at 60</nameOverride>
+      <SoundId>1</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
+      <Order>141</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes>
+            <int>33</int>
+            <int>34</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+            <int>1023</int>
+            <int>1024</int>
+            <int>1025</int>
+            <int>1026</int>
+            <int>1027</int>
+            <int>1028</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>59</maximumLvl>
+        </Condition>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Primalist Armor &amp; Relics - Relic - Turns off at 60</nameOverride>
+      <SoundId>1</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
+      <Order>140</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes>
+            <int>5</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+            <int>1023</int>
+            <int>1024</int>
+            <int>1025</int>
+            <int>1026</int>
+            <int>1027</int>
+            <int>1028</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>59</maximumLvl>
+        </Condition>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Primalist Armor &amp; Relics - Boots - Turns off at 60</nameOverride>
+      <SoundId>1</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
+      <Order>139</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+            <int>1023</int>
+            <int>1024</int>
+            <int>1025</int>
+            <int>1026</int>
+            <int>1027</int>
+            <int>1028</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>59</maximumLvl>
+        </Condition>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Primalist Armor &amp; Relics - Belt - Turns off at 60</nameOverride>
+      <SoundId>1</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
+      <Order>138</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes>
+            <int>27</int>
+            <int>29</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+            <int>1023</int>
+            <int>1024</int>
+            <int>1025</int>
+            <int>1026</int>
+            <int>1027</int>
+            <int>1028</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>59</maximumLvl>
+        </Condition>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Primalist Armor &amp; Relics - Body Armor - Turns off at 60</nameOverride>
+      <SoundId>1</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
+      <Order>137</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>54</int>
+            <int>55</int>
+            <int>27</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>45</int>
+            <int>1023</int>
+            <int>1024</int>
+            <int>1025</int>
+            <int>1026</int>
+            <int>1027</int>
+            <int>1028</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>59</maximumLvl>
+        </Condition>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>BIS Campaign Primalist Armor &amp; Relics - Helmet - Turns off at 60</nameOverride>
+      <SoundId>1</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>136</Order>
     </Rule>
     <Rule>
@@ -2162,14 +2503,7 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>504</int>
-            <int>503</int>
-            <int>501</int>
-            <int>502</int>
-            <int>505</int>
             <int>25</int>
-            <int>52</int>
-            <int>31</int>
             <int>17</int>
             <int>80</int>
             <int>13</int>
@@ -2177,58 +2511,7 @@
             <int>10</int>
             <int>19</int>
             <int>7</int>
-            <int>1</int>
             <int>45</int>
-            <int>92</int>
-            <int>71</int>
-            <int>715</int>
-            <int>97</int>
-            <int>73</int>
-            <int>70</int>
-            <int>21</int>
-            <int>334</int>
-            <int>335</int>
-            <int>336</int>
-            <int>337</int>
-            <int>338</int>
-            <int>342</int>
-            <int>346</int>
-            <int>347</int>
-            <int>349</int>
-            <int>350</int>
-            <int>351</int>
-            <int>352</int>
-            <int>353</int>
-            <int>354</int>
-            <int>355</int>
-            <int>356</int>
-            <int>357</int>
-            <int>648</int>
-            <int>666</int>
-            <int>737</int>
-            <int>332</int>
-            <int>333</int>
-            <int>340</int>
-            <int>343</int>
-            <int>344</int>
-            <int>345</int>
-            <int>540</int>
-            <int>543</int>
-            <int>544</int>
-            <int>555</int>
-            <int>559</int>
-            <int>585</int>
-            <int>602</int>
-            <int>629</int>
-            <int>382</int>
-            <int>1015</int>
-            <int>1016</int>
-            <int>1017</int>
-            <int>1018</int>
-            <int>1019</int>
-            <int>1020</int>
-            <int>1021</int>
-            <int>1022</int>
             <int>1023</int>
             <int>1024</int>
             <int>1025</int>
@@ -9606,7 +9889,7 @@
       </conditions>
       <recolor>false</recolor>
       <color>0</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent_deprecated>false</levelDependent_deprecated>
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
